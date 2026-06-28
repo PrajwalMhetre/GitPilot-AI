@@ -1,0 +1,16 @@
+{
+  "name": "gitpilot-ai",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "lint": "pnpm --filter web lint",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  }
+}

@@ -1,0 +1,58 @@
+# Node
+
+node_modules
+.pnpm-store
+.next
+dist
+build
+
+# Python
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Environment
+
+.env
+.env.local
+.env.*.local
+
+# Logs
+
+logs
+*.log
+
+# Coverage
+
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+
+.vscode/
+.idea/
+
+# macOS
+
+.DS_Store
+
+# Docker
+
+docker-data/
+
+# Turbo
+
+.turbo/
+
+# Misc
+
+*.sqlite3
+*.db
